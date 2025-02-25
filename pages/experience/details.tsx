@@ -16,9 +16,9 @@ interface DetailedExperience {
   role: string;
   companyUrl: string;
   description: string[];
-  responsibilities: string[];
-  challenges: Challenge[];
-  achievements: string[];
+  // responsibilities: string[];
+  // challenges: Challenge[];
+  // achievements: string[];
   technologies: string[];
 }
 
@@ -56,7 +56,7 @@ const experiences: DetailedExperience[] = [
       "Laravel",
       "Github",
     ],
-  },
+  }
 ];
 
 const ExperienceDetails = () => {
@@ -197,9 +197,9 @@ const ExperienceDetails = () => {
                       </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <h4 className="text-sm font-semibold text-slate-200 mb-4">
-                        {exp.responsibilities && exp.responsibilities.length > 0 && 'Key Responsibilities'}
+                        {exp?.responsibilities && exp?.responsibilities?.length > 0 && 'Key Responsibilities'}
                       </h4>
                       <ul className="list-disc pl-6 space-y-2">
                         {exp?.responsibilities?.map((resp, i) => (
@@ -208,9 +208,9 @@ const ExperienceDetails = () => {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
 
-                    <div>
+                    {/* <div>
                       <h4 className="text-sm font-semibold text-slate-200 mb-4">
                         {exp.achievements && exp.achievements.length > 0 && 'Key Achievements'}
                       </h4>
@@ -221,10 +221,10 @@ const ExperienceDetails = () => {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
 
-                  <div>
+                  {/* <div>
                     <h4 className="text-sm font-semibold text-slate-200 mb-4">
                       {exp.challenges && exp.challenges.length > 0 && 'Challenges & Solutions'}
                     </h4>
@@ -243,7 +243,7 @@ const ExperienceDetails = () => {
                         </div>
                       ))}
                     </div>
-                  </div>
+                  </div> */}
 
                   <div>
                     <h4 className="text-sm font-semibold text-slate-200 mb-4">
