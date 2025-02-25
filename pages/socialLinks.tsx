@@ -49,7 +49,7 @@ const SocialLInks = () => {
             </a>
           ))}
         </div>
-        <div className="w-[1px] h-48 bg-sky-300 hidden lg:block md:block"></div>
+        <div className="w-[1px] h-20 bg-sky-300 hidden lg:block md:block"></div>
       </div>
     </>
   );

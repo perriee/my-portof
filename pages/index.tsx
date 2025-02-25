@@ -27,7 +27,7 @@ export default function Home() {
           <meta name="twitter:description" content="Welcome to my portfolio! I am a software engineer who builds accessible, inclusive products and digital experiences for the web." />
         </Head>
       </div>
-      <About />
+      {/* <About /> */}
       <Experience />
       <Project />
       {/* <Education /> */}

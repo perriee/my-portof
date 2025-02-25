@@ -3,7 +3,7 @@ import Link from "next/link";
 import SocialLinks from "./socialLinks";
 
 const navItems = [
-  { to: "about", label: "About", offset: -100 },
+  // { to: "about", label: "About", offset: -100 },
   { to: "experience", label: "Experience", offset: -150 },
   { to: "projects", label: "Projects", offset: -120 },
   // { to: "education", label: "Education", offset: -120 },
